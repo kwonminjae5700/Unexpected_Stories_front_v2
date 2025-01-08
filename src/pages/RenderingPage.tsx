@@ -1,4 +1,4 @@
-import * as S from '../styles/render'
+import * as S from '../styles/renderingPage'
 
 const RenderingPage = () => {
   return (

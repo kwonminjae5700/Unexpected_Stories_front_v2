@@ -7,8 +7,7 @@ export const RenderLayout = styled.div`
   flex-direction : column;
   align-items: center;
   gap : 40px;
-  margin : 0 auto;
-  padding-top: 120px;
+  margin : 120px auto;
 `
 export const TitleBox = styled.div`
   display : flex;
