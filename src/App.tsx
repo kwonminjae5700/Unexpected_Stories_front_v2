@@ -1,4 +1,5 @@
 import RenderingPage from './pages/RenderingPage'
+import BusStopPage from './pages/BusStopPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import styled from 'styled-components'
 import BusStopBackgroundImage from './assets/BusStopBackgroundImage.png'
@@ -10,6 +11,7 @@ const App = () => {
       <BackgroundBox>
         <Routes>
           <Route path="/" element={<RenderingPage />} />
+          <Route path="/busStop" element={<BusStopPage />}/>
         </Routes>
       </BackgroundBox>
     </BrowserRouter>
@@ -17,6 +19,7 @@ const App = () => {
 }
 
 const BackgroundBox = styled.div`
+  display : inline-block;
   width: 100%;
   max-width: 480px;
   height: 100%;
