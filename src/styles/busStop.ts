@@ -7,7 +7,7 @@ export const Layout = styled.div`
   align-items: center;
   box-sizing: border-box;
   width : 100%;
-  height : 40%;
+  height : 26%;
   background-color : #FFFFFF3D;
   border-radius: 16px;
   padding : 0 16px;
