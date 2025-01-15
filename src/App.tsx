@@ -1,5 +1,6 @@
 import RenderingPage from './pages/RenderingPage'
 import BusStopPage from './pages/BusStopPage'
+import MenuPage from './pages/MenuPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import styled from 'styled-components'
 import BusStopBackgroundImage from './assets/BusStopBackgroundImage.png'
@@ -12,6 +13,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<RenderingPage />} />
           <Route path="/busStop" element={<BusStopPage />}/>
+          <Route path="menu" element={<MenuPage />}/>
         </Routes>
       </BackgroundBox>
     </BrowserRouter>
